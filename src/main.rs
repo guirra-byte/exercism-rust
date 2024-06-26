@@ -1,11 +1,17 @@
-mod acronym;
-mod beer_song;
-mod chessboard_grains;
-mod reverse_string;
-mod sum;
+pub mod acronym;
+pub mod reverse_string;
+pub mod chessboard_grains;
+pub mod beer_song;
+pub mod sum;
 
 fn main() {
     println!("Studying Rust...");
+    acronym::main();
+    reverse_string::main();
+    chessboard_grains::main();
+    beer_song::main();
+    sum::main();
+
 }
 
 // 1 Byte === 8 Bits;
