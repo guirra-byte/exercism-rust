@@ -1,7 +1,8 @@
 pub mod acronym;
-pub mod reverse_string;
-pub mod chessboard_grains;
 pub mod beer_song;
+pub mod chessboard_grains;
+pub mod invert_array;
+pub mod reverse_string;
 pub mod sum;
 
 fn main() {
@@ -11,7 +12,7 @@ fn main() {
     chessboard_grains::main();
     beer_song::main();
     sum::main();
-
+    invert_array::main();
 }
 
 // 1 Byte === 8 Bits;
